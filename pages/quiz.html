@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Quiz </title>
+    <script src="quiz.js"></script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header class="titleHeader">
+        <h1 class="title"> Covid-19 </h1>
+        <h3 class="subtitle"> Discover your quarantine personality </h3>
+    </header>
+    <nav class="siteNav">
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a class="active" href="pages/quiz.html">Quiz</a>
+        <a href="pages/allTypes.html">Personality Types</a>
+        <a href="pages/resources.html">Covid-19</a>
+    </nav>
+    <h1> Personality quiz </h1>
+    <div id="question1">
+        <h4>1. How did you learn about the virus?</h4>
+        <input type="radio" id="oblivious1" name="q1" value="A">
+        <label for="oblivious1">What virus ?</label><br>
+        <input type="radio" id="hoarder1" name="q1" value="B">
+        <label for="hoarder1">I have known for a long time</label><br>
+        <input type="radio" id="petrified1" name="q1" value="C">
+        <label for="petrified1">Just yesterday from the BBC</label><br>
+        <br>
+    </div>
+    <div id="question2">
+        <h4>2. How did you learn about the virus?</h4>
+        <input type="radio" id="oblivious2" name="q2" value="A">
+        <label for="oblivious2">What virus ?</label><br>
+        <input type="radio" id="hoarder2" name="q2" value="B">
+        <label for="hoarder2">I have known for a long time</label><br>
+        <input type="radio" id="petrified2" name="q2" value="C">
+        <label for="petrified2">Just yesterday from the BBC</label><br>
+        <br>
+    </div>
+
+    <p>
+        Select a radio button and click on Submit.
+    </p>
+    <button type="button" onclick="displayRadioValue()"> 
+        Submit 
+    </button>
+    <br>
+    <div id="result"></div>
+</body>
+
+</html>
