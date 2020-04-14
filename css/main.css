@@ -1,0 +1,82 @@
+.home-info {
+    position: relative;
+    margin: 0 auto;
+}
+
+.home-info {
+    width: 700px;
+    margin: 10px 15px 10px 50px
+}
+
+.main {
+    border: 1px solid #f00;
+    min-height: 400px;
+    width: 750px;
+    margin: 10px 10px 10px 50px
+}
+
+.side {
+    width: 300px;
+    border: 1px solid #f00;
+    min-height: 200px;
+    position: absolute;
+    top: 60px;
+    right: -200px;
+    left: 850px
+}
+
+.home-info {
+    text-align: center;
+    padding: 15px;
+}
+
+.titleHeader {
+    margin: 20px 10px 0px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+    background-color: #fce41a;
+}
+
+.subtitle {
+    margin-top: 5px
+}
+
+.title {
+    margin-bottom: 5px;
+}
+
+
+/* Add a background color to the top navigation */
+
+.siteNav {
+    background-color: #fce41a;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.siteNav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.siteNav a:hover {
+    background-color: #1d7d9e;
+    color: white;
+}
+
+
+/* Add a color to the active/current link */
+
+.siteNav a.active {
+    background-color: #1d7d9e;
+    color: white;
+}
