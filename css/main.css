@@ -80,3 +80,14 @@
     background-color: #1d7d9e;
     color: white;
 }
+
+h1 {
+    font-family: 'Six Caps', sans-serif;
+}
+
+h4,
+h3,
+h2,
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
