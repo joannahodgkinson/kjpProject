@@ -1,3 +1,33 @@
+body {
+    background-color: #fbc326;
+    margin: 60px
+}
+
+.homeTitleHeader {
+    font-family: 'Six Caps', sans-serif;
+    text-align: left;
+    font-size: 90px;
+}
+
+.titleHeader {
+    margin: 20px 10px 0px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Six Caps', sans-serif;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h4,
+h3,
+h2,
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .home-info {
     position: relative;
     margin: 0 auto;
@@ -6,6 +36,10 @@
 .home-info {
     width: 700px;
     margin: 10px 15px 10px 50px
+}
+
+span {
+    color: #d4320e;
 }
 
 .main {
@@ -30,13 +64,6 @@
     padding: 15px;
 }
 
-.titleHeader {
-    margin: 20px 10px 0px;
-    padding: 0px 30px 0px 30px;
-    text-align: center;
-    background-color: #fbc326;
-}
-
 .subtitle {
     margin-top: 5px
 }
@@ -49,7 +76,6 @@
 /* Add a background color to the top navigation */
 
 .siteNav {
-    background-color: #fbc326;
     overflow: hidden;
 }
 
@@ -79,15 +105,4 @@
 .siteNav a.active {
     background-color: #1d7d9e;
     color: white;
-}
-
-h1 {
-    font-family: 'Six Caps', sans-serif;
-}
-
-h4,
-h3,
-h2,
-nav {
-    font-family: 'Montserrat', sans-serif;
 }
