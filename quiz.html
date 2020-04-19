@@ -23,35 +23,74 @@
     </header>
 
     <h1> Personality quiz </h1>
-    <div id="question1">
-        <h4>1. How did you learn about the virus?</h4>
-        <input type="radio" id="oblivious1" name="q1" value="A">
-        <label for="oblivious1">What virus ?</label><br>
-        <input type="radio" id="hoarder1" name="q1" value="B">
-        <label for="hoarder1">I have known for a long time</label><br>
-        <input type="radio" id="petrified1" name="q1" value="C">
-        <label for="petrified1">Just yesterday from the BBC</label><br>
-        <br>
-    </div>
-    <div id="question2">
-        <h4>2. How did you learn about the virus?</h4>
-        <input type="radio" id="oblivious2" name="q2" value="A">
-        <label for="oblivious2">What virus ?</label><br>
-        <input type="radio" id="hoarder2" name="q2" value="B">
-        <label for="hoarder2">I have known for a long time</label><br>
-        <input type="radio" id="petrified2" name="q2" value="C">
-        <label for="petrified2">Just yesterday from the BBC</label><br>
-        <br>
-    </div>
 
-    <p>
-        Select a radio button and click on Submit.
-    </p>
-    <button type="button" onclick="displayRadioValue()"> 
-        Submit 
-    </button>
-    <br>
-    <div id="result"></div>
+
+
+    <form>
+        <h4>1. How did you learn about the virus?</h4>
+        <label><input type="radio" id="oblivious1" name="q1" value="1">What virus?</label> <br>
+        <label><input type="radio" id="hoarder1" name="q1" value="2">I have known for a long time</label> <br>
+        <label><input type="radio" id="petrified1" name="q1" value="3">Just yesterday from the BBC</label> <br>
+        <label><input type="radio" id=XXXX name="q1" value="4">When they cancelled my Ski trip to Italy</label> <br>
+        <label><input type="radio" id=XXXXX name="q1" value="5">When my mother asked me to buy toilet paper</label> <br>
+        <label><input type="radio" id=XXXXX name="q1" value="6">Months ago- I’ve prepared ever since</label> <br>
+        <label><input type="radio" id=XXXXX name="q1" value="7">I already had it before the mainstream media caught on and I was fine. Now I’m immune</label> <br>
+
+
+        <h4>2. Which of the following is your main source of info?</h4>
+        <label><input type="radio" id="oblivious1" name="q2" value="1">Info about what?</label> <br>
+        <label><input type="radio" id="hoarder1" name="q2" value="2">None</label> <br>
+        <label><input type="radio" id="petrified1" name="q2" value="3">BBC News</label> <br>
+        <label><input type="radio" id=XXXX name="q2" value="4">Trending Tweets</label> <br>
+        <label><input type="radio" id=XXXXX name="q2" value="5">I do my own research- The Media’s biased</label> <br>
+        <label><input type="radio" id=XXXXX name="q2" value="6">Have you seen my family’s WhatsApp group?</label> <br>
+
+        <h4>3. When was the last time you went out?</h4>
+        <label><input type="radio" id="oblivious1" name="q3" value="1">Yesterday, I conquered the corner shops</label> <br>
+        <label><input type="radio" id="hoarder1" name="q3" value="2">This morning, took my dog for a walk</label> <br>
+        <label><input type="radio" id="petrified1" name="q3" value="3">Can’t remember</label> <br>
+        <label><input type="radio" id=XXXX name="q3" value="4">Does House Party count?</label> <br>
+        <label><input type="radio" id=XXXXX name="q3" value="5">Who needs the park when we have Joe Wicks?</label> <br>
+        <label><input type="radio" id=XXXXX name="q3" value="6">You won’t see me stepping foot in my back garden</label> <br>
+
+        <h4>4. Where do you get your food shopping from?</h4>
+        <label><input type="radio" id="oblivious1" name="q4" value="1">Tbh Tesco, the queues aren’t even that bad</label> <br>
+        <label><input type="radio" id="hoarder1" name="q4" value="2">Just Eat and UberEATS are life savers</label> <br>
+        <label><input type="radio" id="petrified1" name="q4" value="3"> I don’t</label> <br>
+        <label><input type="radio" id=XXXX name="q4" value="4">Already reserved my Home Delivery slot on Waitrose</label> <br>
+        <label><input type="radio" id=XXXXX name="q4" value="5">Baked Beans and Tinned Soup will do!</label> <br>
+
+
+        <h4>5. You spend most of your time in Quarantine doing?</h4>
+        <label><input type="radio" id="oblivious1" name="q5" value="1">Home Workouts- #gainsfordays</label> <br>
+        <label><input type="radio" id="hoarder1" name="q5" value="2">Posting pre isolation content on IG</label> <br>
+        <label><input type="radio" id="petrified1" name="q5" value="3">Sleeping</label> <br>
+        <label><input type="radio" id=XXXX name="q5" value="4">Checking COVID-19 updates</label> <br>
+        <label><input type="radio" id=XXXXX name="q5" value="5">Getting smashed with the parents</label> <br>
+        <label><input type="radio" id=XXXXX name="q5" value="6">Bingeing on Netflix</label> <br>
+
+        <h4>6. What was your first reaction to the 23rd March UK GOV Lockdown?</h4>
+        <label><input type="radio" id="oblivious1" name="q6" value="1">Unsurprised, I predicted this months ago</label> <br>
+        <label><input type="radio" id="hoarder1" name="q6" value="2">It’s Shutdown, that’s not me and its shutdown…</label> <br>
+        <label><input type="radio" id="petrified1" name="q6" value="3">An urgent hoard on Toilet Paper</label> <br>
+        <label><input type="radio" id=XXXX name="q6" value="4">Tears, who’s going to fill in my lash extensions?</label> <br>
+        <label><input type="radio" id=XXXXX name="q6" value="5">Finally, it’s about time that coworker is no longer on my case!</label> <br>
+
+        <h4>7. Your Quarantine Routine starts by…</h4>
+        <label><input type="radio" id="oblivious1" name="q7" value="1">Waking up at 3pm, unsure what day or month it is</label> <br>
+        <label><input type="radio" id="hoarder1" name="q7" value="2">8am soulful mediation, Yoga and a blissful morning read</label> <br>
+        <label><input type="radio" id="petrified1" name="q7" value="3">Waking up from the second nap you took, 4pm takes another nap.</label> <br>
+        <label><input type="radio" id=XXXX name="q7" value="4">9am WFH (from my bed), 12pm breakfast</label> <br>
+        <label><input type="radio" id=XXXXX name="q7" value="5">Checking IG, Checking Twitter, Opening Tiktok then Netflix</label> <br>
+
+        <br> <button type="submit" class="quizButton" value="Submit">Submit</button>
+
+    </form>
+
+    <p id="answer"></p>
+    <p id="answer2"></p>
+
+
 </body>
 
 </html>
