@@ -1,44 +1,44 @@
-.home-info {
-    position: relative;
-    margin: 0 auto;
-}
-
-.home-info {
-    width: 700px;
-    margin: 10px 15px 10px 50px
-}
-
-.main {
-    border: 1px solid #f00;
-    min-height: 400px;
-    width: 750px;
-    margin: 10px 10px 10px 50px
-}
-
-.side {
-    width: 300px;
-    border: 1px solid #f00;
-    min-height: 200px;
-    position: absolute;
-    top: 60px;
-    right: -200px;
-    left: 850px
-}
-
-.home-info {
-    text-align: center;
-    padding: 15px;
+body {
+    background-color: #fbc326;
+    margin: 60px
 }
 
 .titleHeader {
     margin: 20px 10px 0px;
     padding: 0px 30px 0px 30px;
     text-align: center;
-    background-color: #fce41a;
 }
 
-.subtitle {
-    margin-top: 5px
+h1 {
+    font-family: 'Six Caps', sans-serif;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.quizButton {
+    background-color: #d4320e;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 32px 16px;
+    transition-duration: 0.4s;
+}
+
+.quizButton:hover {
+    background-color: #1d7d9e;
+    color: white;
+}
+
+h4,
+h3,
+h2,
+nav {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title {
@@ -49,7 +49,6 @@
 /* Add a background color to the top navigation */
 
 .siteNav {
-    background-color: #fce41a;
     overflow: hidden;
 }
 
