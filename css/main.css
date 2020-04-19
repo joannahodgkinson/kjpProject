@@ -3,12 +3,6 @@ body {
     margin: 60px
 }
 
-.homeTitleHeader {
-    font-family: 'Six Caps', sans-serif;
-    text-align: left;
-    font-size: 90px;
-}
-
 .titleHeader {
     margin: 20px 10px 0px;
     padding: 0px 30px 0px 30px;
@@ -26,46 +20,6 @@ h3,
 h2,
 nav {
     font-family: 'Montserrat', sans-serif;
-}
-
-.home-info {
-    position: relative;
-    margin: 0 auto;
-}
-
-.home-info {
-    width: 700px;
-    margin: 10px 15px 10px 50px
-}
-
-span {
-    color: #d4320e;
-}
-
-.main {
-    border: 1px solid #f00;
-    min-height: 400px;
-    width: 750px;
-    margin: 10px 10px 10px 50px
-}
-
-.side {
-    width: 300px;
-    border: 1px solid #f00;
-    min-height: 200px;
-    position: absolute;
-    top: 60px;
-    right: -200px;
-    left: 850px
-}
-
-.home-info {
-    text-align: center;
-    padding: 15px;
-}
-
-.subtitle {
-    margin-top: 5px
 }
 
 .title {
