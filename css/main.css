@@ -4,15 +4,20 @@ body {
 }
 
 .titleHeader {
-    margin: 20px 10px 0px;
-    padding: 0px 30px 0px 30px;
-    text-align: center;
+    margin: 20px 10px 0px 0px;
+    padding: 0px 30px 0px 0px;
+    text-align: left;
+    font-size: 35px;
 }
 
 h1 {
     font-family: 'Six Caps', sans-serif;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+span {
+    color: #d4320e;
 }
 
 .quizButton {
@@ -37,6 +42,7 @@ h1 {
 h4,
 h3,
 h2,
+label,
 nav {
     font-family: 'Montserrat', sans-serif;
 }
